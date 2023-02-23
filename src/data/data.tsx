@@ -2,30 +2,30 @@ import {
   AcademicCapIcon,
   CalendarIcon,
   DownloadIcon,
-  //FlagIcon,
+  FlagIcon,
   MapIcon,
   OfficeBuildingIcon,
   SparklesIcon,
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-//import InstagramIcon from '../components/Icon/InstagramIcon';
+import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-//import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-//import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-//import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-//import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-//import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-//import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-//import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-//import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-//import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-//import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-//import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/me.png';
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -107,7 +107,7 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Location', text: 'Charlotte, NC', Icon: MapIcon},
     {label: 'Age', text: '36', Icon: CalendarIcon},
-    //{label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     {label: 'Interests', text: 'Tech, Gaming, Music', Icon: SparklesIcon},
     {label: 'Study', text: 'East Carolina University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'MedicusIT', Icon: OfficeBuildingIcon},
@@ -198,7 +198,7 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://timbaker.me',
     image: porfolioImage1,
   },
-  /* {
+   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
@@ -257,7 +257,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     image: porfolioImage11,
-  }, */
+  }, 
 ];
 
 /**
@@ -351,8 +351,8 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/dmupp3t'},
-  //{label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jamesamonroeiv/'},
-  //{label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/jamesamonroeiv'},
 ];
